@@ -2,8 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Semester](https://img.shields.io/badge/Semester-2026%2F2027%20Gasal-blue)
-![Kelas](https://img.shields.io/badge/Kelas-SI%2DIIIA-orange)
-![Jadwal](https://img.shields.io/badge/Jadwal-Rabu%2015%3A30%2D18%3A00-green)
 ![Pertemuan](https://img.shields.io/badge/Pertemuan-16%20Minggu-purple)
 ![Model](https://img.shields.io/badge/Pembelajaran-CBL%20%7C%20PBL%20%7C%20PjBL-red)
 
