@@ -2,11 +2,12 @@
 
 #### Jadwal | SI SI-IIIA | RABU 15:30-18:00 | LAB. 2
 
-**Mulai kuliah:** 16 September 2026
+**Mulai kuliah:** Rabu, 16 September 2026
 
-**Hari:** Rabu
 **Jumlah pertemuan:** 16 minggu
+
 **Bahasa utama:** Python 3.x
+
 **Model pembelajaran:** CBL, PBL, dan Project Based Learning
 
 | Minggu | Tanggal         | CPMK    | Fokus / Materi Pertemuan                                                              | Aktivitas Utama                                                              | Output / Asesmen             |
