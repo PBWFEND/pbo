@@ -1,1 +1,5 @@
 # USA-WP2360214 - PBO
+
+Jadwal :
+
+- SI-IIIA | RABU | 15:30-18:00 | LAB. 2
