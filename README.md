@@ -17,6 +17,8 @@ Jadwal :
 | :-: | ------- | --------- |
 | 01 | [Panduan Penggunaan IDE — `01-IDE.md`](./01-IDE.md) | Cara menjalankan program Python: pilihan IDE, instalasi Python, dan penggunaan VS Code |
 | 02 | [Timeline Pertemuan — `Timeline.md`](./Timeline.md) | Rencana 16 pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal |
+| 03 | [Materi Pertemuan 1 — `02-Pertemuan-1.md`](./02-Pertemuan-1.md) | 23 slide: pengantar OOP & Python, class/object/method/constructor, studi kasus perpustakaan, latihan & mini challenge |
+| — | Kode praktikum Pertemuan 1 — [`code/pertemuan-01/`](./code/pertemuan-01/) | Contoh kode siap jalan: `mahasiswa.py`, `perpustakaan.py`, kerangka latihan terbimbing & mandiri |
 
 ## Referensi Terkait
 
