@@ -40,8 +40,9 @@
   - [20. Pemanfaatan AI sebagai Coding Assistant](#20-pemanfaatan-ai-sebagai-coding-assistant)
   - [21. Rangkuman](#21-rangkuman)
   - [22. Asesmen dan Penugasan](#22-asesmen-dan-penugasan)
-  - [23. Referensi](#23-referensi)
-  - [24. Kode Praktikum Pertemuan 1](#24-kode-praktikum-pertemuan-1)
+    - [23. Persiapan menuju Pertemuan 2](#23-persiapan-menuju-pertemuan-2)
+    - [24. Referensi](#24-referensi)
+    - [25. Kode Praktikum Pertemuan 1](#25-kode-praktikum-pertemuan-1)
 
 ---
 
@@ -788,7 +789,20 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 
 ---
 
-## 23. Referensi
+## 23. Persiapan menuju Pertemuan 2
+
+Pada Pertemuan 2, mahasiswa akan membuat dan menggunakan class, object, attribute, method, dan constructor secara lebih terstruktur.
+
+Persiapkan hal berikut:
+
+- Baca ulang bagian class, object, attribute, method, constructor, dan `self`.
+- Jalankan ulang `mahasiswa.py` dan `perpustakaan.py`.
+- Selesaikan `latihan_mandiri_1.py` sesuai spesifikasi class `Produk`.
+- Bawa satu contoh entitas Sistem Informasi yang dapat dimodelkan sebagai class.
+
+---
+
+## 24. Referensi
 
 Materi berikutnya membahas class dan object dengan Python sesuai urutan pembelajaran pada `Timeline.md`.
 
@@ -801,7 +815,7 @@ Materi berikutnya membahas class dan object dengan Python sesuai urutan pembelaj
 
 ---
 
-## 24. Kode Praktikum Pertemuan 1
+## 25. Kode Praktikum Pertemuan 1
 
 - [`../code/pertemuan-01/mahasiswa.py`](../code/pertemuan-01/mahasiswa.py) — contoh class `Mahasiswa`, class attribute, instance attribute, method, dan constructor.
 - [`../code/pertemuan-01/perpustakaan.py`](../code/pertemuan-01/perpustakaan.py) — contoh interaksi object `Buku` dan `Anggota`.

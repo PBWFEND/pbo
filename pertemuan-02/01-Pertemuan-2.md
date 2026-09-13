@@ -34,8 +34,9 @@
   - [14. Latihan Individu](#14-latihan-individu)
   - [15. Pemanfaatan AI sebagai Coding Assistant](#15-pemanfaatan-ai-sebagai-coding-assistant)
   - [16. Kuis Formatif](#16-kuis-formatif)
-  - [17. Asesmen dan Penugasan](#17-asesmen-dan-penugasan)
-  - [18. Referensi dan Kode Praktikum](#18-referensi-dan-kode-praktikum)
+    - [17. Asesmen dan Penugasan](#17-asesmen-dan-penugasan)
+    - [18. Persiapan menuju Pertemuan 3](#18-persiapan-menuju-pertemuan-3)
+    - [19. Referensi dan Kode Praktikum](#19-referensi-dan-kode-praktikum)
 
 ---
 
@@ -392,7 +393,20 @@ Checklist:
 
 ---
 
-## 18. Referensi dan Kode Praktikum
+## 18. Persiapan menuju Pertemuan 3
+
+Pada Pertemuan 3, mahasiswa akan mempelajari encapsulation, private attribute, property, getter, setter, dan validasi data object.
+
+Persiapkan hal berikut:
+
+- Baca ulang penggunaan `self`, constructor, instance attribute, dan method.
+- Jalankan ulang `mahasiswa_lanjutan.py` dan `perpustakaan_object.py`.
+- Selesaikan `latihan_mandiri_2.py` dan pastikan setiap method dapat dijelaskan.
+- Siapkan satu contoh data Sistem Informasi yang perlu dikendalikan melalui validasi.
+
+---
+
+## 19. Referensi dan Kode Praktikum
 
 Referensi:
 

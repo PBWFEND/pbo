@@ -25,6 +25,9 @@ Jadwal :
 | 07 | [Materi Pertemuan 2 — `pertemuan-02/01-Pertemuan-2.md`](./pertemuan-02/01-Pertemuan-2.md) | Class, object, attribute, method, constructor, interaksi object, CBL, latihan, quiz, dan asesmen |
 | 08 | [Quiz Pertemuan 2 — `pertemuan-02/02-Quiz-Pertemuan-2.md`](./pertemuan-02/02-Quiz-Pertemuan-2.md) | Lima soal tentang class, object, method, constructor, dan interaksi object |
 | 09 | Kode praktikum Pertemuan 2 — [`code/pertemuan-02/`](./code/pertemuan-02/) | Contoh lengkap dan scaffold latihan |
+| 10 | [Materi Pertemuan 3 — `pertemuan-03/01-Pertemuan-3.md`](./pertemuan-03/01-Pertemuan-3.md) | Encapsulation, access control, private attribute, property, getter, setter, CBL, latihan, quiz, dan asesmen |
+| 11 | [Quiz Pertemuan 3 — `pertemuan-03/02-Quiz-Pertemuan-3.md`](./pertemuan-03/02-Quiz-Pertemuan-3.md) | Lima soal tentang encapsulation dan validasi data object |
+| 12 | Kode praktikum Pertemuan 3 — [`code/pertemuan-03/`](./code/pertemuan-03/) | Contoh property dan validasi serta scaffold latihan |
 
 ## Referensi Terkait
 
