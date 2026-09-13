@@ -1,7 +1,7 @@
 # Quiz Pertemuan 1 — Pengantar OOP & Python
 
 **Mata Kuliah:** USA-WP2360214 — Pemrograman Berorientasi Objek
-**Pertemuan:** 1 | **Minggu:** 16 September 2026 | **CPMK:** CPMK114
+**Pertemuan:** 1 | **Tanggal:** 16 September 2026 | **CPMK:** CPMK114
 
 ---
 
@@ -18,7 +18,7 @@
 
 Jelaskan perbedaan **class** dan **object** dengan kalimatmu sendiri, lalu berikan **satu contoh** dari Sistem Informasi Perpustakaan (sebutkan mana yang menjadi class dan mana yang menjadi object-nya).
 
-> _Petunjuk: ingat analogi cetakan kue di slide 6._
+> _Petunjuk: ingat analogi cetakan kue pada bagian Class dan Object._
 
 **Jawaban:**
 
@@ -198,6 +198,6 @@ Laptop
 | ---- | ------------- |
 | 80–100 | Siap lanjut Pertemuan 2; beri tantangan tambahan (mini challenge level 2) |
 | 60–79 | Lanjut, ulangi bagian yang salah lewat materi slide terkait |
-| < 60 | Pendampingan khusus: ulangi slide 6–11 + praktikum `code/pertemuan-01/` bersama asisten |
+| < 60 | Pendampingan khusus: ulangi bagian Class, Object, Attribute, Method, Constructor, dan `self` + praktikum `../code/pertemuan-01/` bersama asisten |
 
 *Hasil quiz mencatat skor komponen "Quiz minggu 1" sesuai Timeline.md (Output: Quiz & diskusi).*

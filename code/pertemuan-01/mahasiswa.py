@@ -23,7 +23,7 @@ class Mahasiswa:
 
 # === Program utama ===
 if __name__ == "__main__":
-    m1 = Mahasiswa("Budi Santoso", "SI-101")
+    m1 = Mahasiswa("Jhon Doe", "SI-101")
     m2 = Mahasiswa("Ani Lestari", "SI-102")
 
     m1.perkenalan()

@@ -1,6 +1,6 @@
 # Latihan Mandiri Pertemuan 1
 #
-# Buat class Produk sesuai spesifikasi Slide 17:
+# Buat class Produk sesuai spesifikasi bagian Latihan Mandiri:
 #   1. Attribute: nama, harga, stok
 #   2. Constructor: mengisi ketiga attribute dari parameter
 #   3. Method info(): cetak "{nama} - Rp{harga} (stok: {stok})"

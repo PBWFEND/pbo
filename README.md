@@ -1,11 +1,12 @@
 # USA-WP2360214 - PBO
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![SKS](https://img.shields.io/badge/SKS-2-8b5cf6)
 ![Semester](https://img.shields.io/badge/Semester-2026%2F2027%20Gasal-blue)
 ![Pertemuan](https://img.shields.io/badge/Pertemuan-16%20Minggu-purple)
 ![Model](https://img.shields.io/badge/Pembelajaran-CBL%20%7C%20PBL%20%7C%20PjBL-red)
 
-Mata kuliah **Pemrograman Berorientasi Objek (PBO)** menggunakan **Python 3**. Mahasiswa mempelajari paradigma OOP — *class, object, encapsulation, inheritance, polymorphism,* dan *abstraction* — dilanjutkan dengan analisis & desain *object* berbasis studi kasus Sistem Informasi, pemodelan **UML Class Diagram**, hingga implementasi **mini project** aplikasi berbasis *object* (CRUD, exception handling, testing, dan dokumentasi).
+Mata kuliah **Pemrograman Berorientasi Objek (PBO)** menggunakan **Python 3** (2 SKS, Semester 3, Program Studi Sistem Informasi). Mahasiswa mempelajari paradigma OOP — *class, object, encapsulation, inheritance, polymorphism,* dan *abstraction* — dilanjutkan dengan analisis dan desain *object* berbasis studi kasus Sistem Informasi, pemodelan **UML Class Diagram**, hingga implementasi **mini project** aplikasi berbasis *object* (CRUD, exception handling, testing, dan dokumentasi).
 
 Jadwal :
 
@@ -16,9 +17,11 @@ Jadwal :
 | No. | Dokumen | Deskripsi |
 | :-: | ------- | --------- |
 | 01 | [Panduan Penggunaan IDE — `01-IDE.md`](./01-IDE.md) | Cara menjalankan program Python: pilihan IDE, instalasi Python, dan penggunaan VS Code |
-| 02 | [Timeline Pertemuan — `Timeline.md`](./Timeline.md) | Rencana 16 pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal |
-| 03 | [Materi Pertemuan 1 — `02-Pertemuan-1.md`](./02-Pertemuan-1.md) | 23 slide: pengantar OOP & Python, class/object/method/constructor, studi kasus perpustakaan, latihan & mini challenge |
-| — | Kode praktikum Pertemuan 1 — [`code/pertemuan-01/`](./code/pertemuan-01/) | Contoh kode siap jalan: `mahasiswa.py`, `perpustakaan.py`, kerangka latihan terbimbing & mandiri |
+| 02 | [RPS — `RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx`](./RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx) | Rencana Pembelajaran Semester berbasis OBE: CPMK114, CPMK115, CPMK116, bobot, metode, dan asesmen |
+| 03 | [Timeline Pertemuan — `Timeline.md`](./Timeline.md) | Rencana 16 pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal |
+| 04 | [Materi Pertemuan 1 — `pertemuan-01/01-Pertemuan-1.md`](./pertemuan-01/01-Pertemuan-1.md) | 23 slide: pengantar OOP & Python, class/object/method/constructor, studi kasus perpustakaan, latihan & mini challenge |
+| 05 | [Quiz Pertemuan 1 — `pertemuan-01/02-Quiz-Pertemuan-1.md`](./pertemuan-01/02-Quiz-Pertemuan-1.md) | Lima soal tentang class, object, `self`, constructor, dan class attribute, beserta kunci jawaban untuk dosen |
+| 06 | Kode praktikum Pertemuan 1 — [`code/pertemuan-01/`](./code/pertemuan-01/) | Contoh lengkap: `mahasiswa.py`, `perpustakaan.py`; scaffold latihan: `latihan_terbimbing.py`, `latihan_mandiri_1.py` |
 
 ## Referensi Terkait
 

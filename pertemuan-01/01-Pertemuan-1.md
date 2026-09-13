@@ -1,26 +1,78 @@
 # Pertemuan 1 — Pengantar OOP & Python
 
-**Mata Kuliah:** USA-WP2360214 — Pemrograman Berorientasi Objek
-**Pertemuan:** 1 dari 16 | **Minggu:** 16 September 2026
-**CPMK:** CPMK114
-**Materi:** Pengantar OOP & Python — paradigma OOP, class, object, attribute, method, constructor
+| | |
+|:--|:--|
+| **Mata Kuliah** | USA-WP2360214 — Pemrograman Berorientasi Objek |
+| **Pertemuan** | 1 dari 16 |
+| **Tanggal** | Rabu, 16 September 2026 |
+| **CPMK** | CPMK114 |
+| **Materi** | Pengantar OOP & Python — paradigma OOP, class, object, attribute, method, constructor |
+| **Model Pembelajaran** | Case Based Learning / Problem Based Learning |
+| **Stack** | Python 3 |
+
+> **Catatan penting:** Pertemuan 1 memperkenalkan konsep dasar OOP menggunakan Python melalui studi kasus Sistem Informasi. Materi ini menjadi dasar untuk class dan object pada pertemuan berikutnya, kemudian dilanjutkan dengan encapsulation, inheritance, polymorphism, abstraction, UML, dan mini project sesuai `Timeline.md`.
 
 ---
 
-## Slide 1 — Judul
+## Daftar Isi
 
-# Pengantar OOP & Python
-### Pemrograman Berorientasi Objek — Pertemuan 1
-
-- Program Studi Sistem Informasi — SI-IIIA
-- Semester 2026/2027 Gasal
-- Rabu, 16 September 2026 | 15:30–18:00 | Lab. 2
-
-> *"Belajar melihat dunia sebagai kumpulan objek yang saling berinteraksi."*
+- [Pertemuan 1 — Pengantar OOP \& Python](#pertemuan-1--pengantar-oop--python)
+  - [Daftar Isi](#daftar-isi)
+  - [1. Keterkaitan Pertemuan dengan RPS OBE](#1-keterkaitan-pertemuan-dengan-rps-obe)
+  - [2. Capaian Pembelajaran Pertemuan](#2-capaian-pembelajaran-pertemuan)
+  - [3. Relevansi OOP untuk Sistem Informasi](#3-relevansi-oop-untuk-sistem-informasi)
+  - [4. Python untuk Pembelajaran OOP](#4-python-untuk-pembelajaran-oop)
+  - [5. Paradigma Procedural dan OOP](#5-paradigma-procedural-dan-oop)
+  - [6. Class dan Object](#6-class-dan-object)
+  - [7. Attribute](#7-attribute)
+  - [8. Method](#8-method)
+  - [9. Constructor](#9-constructor)
+  - [10. `self`](#10-self)
+  - [11. Anatomi Class Python](#11-anatomi-class-python)
+  - [12. Contoh Class Mahasiswa](#12-contoh-class-mahasiswa)
+  - [13. CBL: Sistem Informasi Perpustakaan](#13-cbl-sistem-informasi-perpustakaan)
+  - [14. Contoh Sistem Perpustakaan](#14-contoh-sistem-perpustakaan)
+  - [15. Menjalankan Kode Praktikum](#15-menjalankan-kode-praktikum)
+  - [16. Latihan Terbimbing](#16-latihan-terbimbing)
+  - [17. Latihan Mandiri](#17-latihan-mandiri)
+  - [18. Mini Challenge](#18-mini-challenge)
+  - [19. Kesalahan Umum](#19-kesalahan-umum)
+  - [20. Pemanfaatan AI sebagai Coding Assistant](#20-pemanfaatan-ai-sebagai-coding-assistant)
+  - [21. Rangkuman](#21-rangkuman)
+  - [22. Asesmen dan Penugasan](#22-asesmen-dan-penugasan)
+  - [23. Referensi](#23-referensi)
+  - [24. Kode Praktikum Pertemuan 1](#24-kode-praktikum-pertemuan-1)
 
 ---
 
-## Slide 2 — Capaian Pembelajaran Pertemuan 1
+## 1. Keterkaitan Pertemuan dengan RPS OBE
+
+Pertemuan 1 mendukung **CPMK114** dan `SUB-CPMK11401` pada RPS:
+
+> Mahasiswa mampu menjelaskan paradigma OOP serta class, object, attribute, method, dan constructor.
+
+Materi ini sesuai dengan `Timeline.md` Minggu 1: pengantar OOP dan Python, class, object, attribute, method, constructor, studi kasus Sistem Informasi, quiz, dan diskusi.
+
+```mermaid
+timeline
+        title Posisi Pertemuan 1 dalam Peta 16 Minggu
+        section Konsep Dasar (M1-M8)
+                Minggu 1 : Pengantar OOP dan Python
+                Minggu 2 : Class dan Object
+                Minggu 3 : Encapsulation
+                Minggu 4-6 : Inheritance, Polymorphism, Abstraction
+                Minggu 7 : OOP vs Procedural
+                Minggu 8 : UTS
+        section Implementasi (M9-M16)
+                Minggu 9-10 : Implementasi dan Analisis Object
+                Minggu 11 : UML Class Diagram
+                Minggu 12-14 : Mini Project, CRUD, Exception Handling
+                Minggu 15-16 : Testing, Dokumentasi, Presentasi, UAS
+```
+
+---
+
+## 2. Capaian Pembelajaran Pertemuan
 
 Setelah mengikuti pertemuan ini, mahasiswa mampu:
 
@@ -35,7 +87,7 @@ Setelah mengikuti pertemuan ini, mahasiswa mampu:
 
 ---
 
-## Slide 3 — Mengapa OOP Penting untuk Sistem Informasi?
+## 3. Relevansi OOP untuk Sistem Informasi
 
 Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transaksi, pegawai...
 
@@ -58,7 +110,7 @@ Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transa
 
 ---
 
-## Slide 4 — Relevansi Python dan AI di Industri 2026
+## 4. Python untuk Pembelajaran OOP
 
 **Python = bahasa #1 dunia** (indeks TIOBE & IEEE Spectrum, 2021–sekarang)
 
@@ -78,7 +130,7 @@ Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transa
 
 ---
 
-## Slide 5 — Paradigma Procedural vs OOP
+## 5. Paradigma Procedural dan OOP
 
 **Procedural:** program = urutan instruksi + fungsi yang memproses data terpisah
 
@@ -119,9 +171,19 @@ mhs.perkenalan()
 | Data & perilaku | Terpisah | Menyatu (*encapsulation*) |
 | Cocok untuk | Script kecil | Aplikasi SI besar |
 
+```mermaid
+flowchart LR
+    A[Data dan fungsi terpisah] --> B[Pendekatan prosedural]
+    C[Data dan perilaku dalam object] --> D[Pendekatan OOP]
+    B --> E[Perubahan lebih sulit dilacak]
+    D --> F[Entitas SI lebih mudah dimodelkan]
+```
+
+Diagram tersebut membandingkan lokasi data dan perilaku pada pendekatan prosedural dan OOP.
+
 ---
 
-## Slide 6 — Konsep Dasar: Class dan Object
+## 6. Class dan Object
 
 **Class** = *blueprint/cetakan* → mendefinisikan data & perilaku
 **Object** = *instansiasi* class → wujud nyata di memori
@@ -149,9 +211,19 @@ Satu cetakan → banyak kue, tiap kue bisa berbeda isi (coklat, keju...).
 
 > Ingat: **class sekali dibuat, object bisa banyak** — masing-masing punya data sendiri.
 
+```mermaid
+flowchart LR
+    A[Class Buku] -->|instansiasi| B[Object buku1]
+    A -->|instansiasi| C[Object buku2]
+    B --> D[Data buku1]
+    C --> E[Data buku2]
+```
+
+Satu class dapat digunakan untuk membuat beberapa object dengan data instance yang berbeda.
+
 ---
 
-## Slide 7 — Attribute: Data yang Dimiliki Object
+## 7. Attribute
 
 **Attribute** = variabel yang menempel pada object.
 
@@ -179,7 +251,7 @@ print(Mahasiswa.jumlah_mahasiswa) # 2
 
 ---
 
-## Slide 8 — Method: Perilaku Object
+## 8. Method
 
 **Method** = fungsi yang didefinisikan di dalam class → perilaku object.
 
@@ -211,7 +283,7 @@ buku.info()      # 'OOP dengan Python' — Andi [Dipinjam]
 
 ---
 
-## Slide 9 — Constructor: `__init__()`
+## 9. Constructor
 
 **Constructor** = method khusus yang otomatis dipanggil saat object dibuat.
 
@@ -236,7 +308,7 @@ mhs = Mahasiswa("Budi", "SI-101")
 
 ---
 
-## Slide 10 — Memahami `self`
+## 10. `self`
 
 **`self`** = referensi ke **object sendiri** yang sedang memanggil method.
 
@@ -267,7 +339,7 @@ Mahasiswa.perkenalan(m1)  # makna sebenarnya: m1 dikirim sebagai self
 
 ---
 
-## Slide 11 — Anatomi Class Python
+## 11. Anatomi Class Python
 
 Semua konsep dalam satu gambar:
 
@@ -295,9 +367,9 @@ mhs.perkenalan()                    # Saya Budi dari UNSAP
 
 ---
 
-## Slide 12 — Contoh Kode 1: Class Mahasiswa (File Lengkap)
+## 12. Contoh Class Mahasiswa
 
-📄 **File:** `code/pertemuan-01/mahasiswa.py`
+📄 **File:** `../code/pertemuan-01/mahasiswa.py`
 
 ```python
 class Mahasiswa:
@@ -352,7 +424,7 @@ Total mahasiswa: 2
 
 ---
 
-## Slide 13 — Studi Kasus: Sistem Informasi Perpustakaan
+## 13. CBL: Sistem Informasi Perpustakaan
 
 **Skenario:** Perpustakaan kampus meminjamkan buku ke mahasiswa.
 
@@ -378,11 +450,24 @@ Anggota --pinjam_buku(buku)--> Buku
 
 > 🎯 Ini yang dimaksud "OOP memodelkan dunia nyata": object **saling bekerja sama** lewat pemanggilan method.
 
+```mermaid
+sequenceDiagram
+    participant A as Anggota
+    participant B as Buku
+    A->>B: pinjam_buku(buku)
+    B-->>A: tersedia atau tidak tersedia
+    A->>A: simpan buku pada daftar_pinjam
+    A->>B: kembalikan_buku(buku)
+    B-->>A: status buku diperbarui
+```
+
+Diagram ini menunjukkan hubungan method antara object `Anggota` dan `Buku` pada studi kasus perpustakaan.
+
 ---
 
-## Slide 14 — Contoh Kode 2: Sistem Perpustakaan (File Lengkap)
+## 14. Contoh Sistem Perpustakaan
 
-📄 **File:** `code/pertemuan-01/perpustakaan.py`
+📄 **File:** `../code/pertemuan-01/perpustakaan.py`
 
 ```python
 class Buku:
@@ -468,7 +553,7 @@ Pinjaman Citra:
 
 ---
 
-## Slide 15 — Menjalankan Kode Praktikum
+## 15. Menjalankan Kode Praktikum
 
 Cara menjalankan file contoh (lihat juga `01-IDE.md`):
 
@@ -477,7 +562,7 @@ Cara menjalankan file contoh (lihat juga `01-IDE.md`):
 python --version
 
 # 2. Masuk folder kode
-cd code/pertemuan-01
+cd ../code/pertemuan-01
 
 # 3. Jalankan
 python mahasiswa.py
@@ -495,7 +580,7 @@ python perpustakaan.py
 
 ---
 
-## Slide 16 — Latihan Terbimbing (Bersama Dosen)
+## 16. Latihan Terbimbing
 
 **Bersama-sama di kelas (± 30 menit):**
 
@@ -534,7 +619,7 @@ dosen.perkenalan()    # Saya Pak Yofi, NIDN 001234
 
 ---
 
-## Slide 17 — Latihan Mandiri
+## 17. Latihan Mandiri
 
 **Kerjakan di rumah, serahkan sebelum pertemuan berikutnya:**
 
@@ -563,7 +648,7 @@ p.info()          # Laptop - Rp8000000 (stok: 13)
 
 ---
 
-## Slide 18 — Mini Challenge 🏆
+## 18. Mini Challenge
 
 **"Perpustakaan Plus" — tingkatkan sistem perpustakaan:**
 
@@ -589,7 +674,7 @@ Tambahkan ke class `Buku` (dari `perpustakaan.py`):
 
 ---
 
-## Slide 19 — Kesalahan Umum Pemula
+## 19. Kesalahan Umum
 
 | # | Kesalahan | Contoh Salah | Perbaikan |
 | - | --------- | ------------ | --------- |
@@ -620,34 +705,45 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 
 ---
 
-## Slide 20 — Pemanfaatan AI sebagai Coding Assistant
+## 20. Pemanfaatan AI sebagai Coding Assistant
 
-**AI assistant (Copilot, ChatGPT, Claude, Gemini) boleh dipakai — dengan cara yang benar:**
+**AI assistant (GitHub Copilot, ChatGPT, Claude, Gemini) boleh dipakai — dengan cara yang benar:**
 
 **✅ Gunakan AI untuk:**
 
-- Menjelaskan ulang konsep yang belum paham ("apa itu `self`?")
-- Mencari penyebab error (*debugging partner*)
-- Mereview gaya kode & saran perbaikan
-- Membuat *test case* / contoh pemakaian
-- Menjelaskan kode contoh baris per baris
+- Menjelaskan perbedaan `class`, `object`, class attribute, dan instance attribute.
+- Membantu membaca pesan `TypeError` atau `AttributeError` setelah Anda mencoba menjalankan kode.
+- Mereview penggunaan `self` dan `__init__()` pada class yang sudah Anda tulis.
+- Membuat contoh pemakaian method untuk diuji secara mandiri.
+- Menjelaskan kode contoh `mahasiswa.py` atau `perpustakaan.py` baris demi baris.
 
 **❌ Jangan gunakan AI untuk:**
 
-- Menuliskan **seluruh** tugas yang seharusnya kamu kerjakan
-- Menyalin solusi latihan tanpa memahaminya
+- Menuliskan seluruh tugas atau latihan yang seharusnya Anda kerjakan.
+- Menyalin solusi class `Produk` tanpa memahami constructor dan method-nya.
+- Mengabaikan error karena kode yang dihasilkan AI terlihat benar.
+- Memasukkan data pribadi atau kredensial ke dalam prompt.
 
 **Etika di kelas ini:**
 
-1. Kamu **wajib bisa menjelaskan** setiap baris kode yang kamu serahkan
-2. Jika memakai AI, **cantumkan** di komentar: `# Bantuan: ChatGPT — penjelasan self`
-3. AI = **asisten**, bukan **pengganti**. OOP harus ada di kepala *kamu*, bukan hanya di layar.
+1. Anda wajib dapat menjelaskan setiap class, object, attribute, method, dan constructor yang diserahkan.
+2. Jika memakai AI, cantumkan pada komentar kode atau refleksi. Contoh yang sesuai dengan materi class attribute dan instance attribute:
 
-> 🧠 Analogi: kalkulator boleh dipakai saat matematika — tapi kamu tetap harus paham operasinya.
+   ```python
+   # Bantuan: ChatGPT — penjelasan class attribute dan instance attribute.
+   class Mahasiswa:
+       jumlah_mahasiswa = 0
+
+       def __init__(self, nama):
+           self.nama = nama
+           Mahasiswa.jumlah_mahasiswa += 1
+   ```
+
+3. AI digunakan sebagai asisten, bukan pengganti. Anda tetap bertanggung jawab memahami, menjalankan, dan menguji kode yang diserahkan.
 
 ---
 
-## Slide 21 — Rangkuman
+## 21. Rangkuman
 
 **Konsep hari ini:**
 
@@ -667,7 +763,7 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 
 ---
 
-## Slide 22 — Asesmen & Penugasan
+## 22. Asesmen dan Penugasan
 
 **Penilaian pertemuan ini:**
 
@@ -686,16 +782,15 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 **Checklist sebelum kumpul:**
 
 - [ ] Kode jalan tanpa error (`python latihan_mandiri_1.py`)
-- [ ] Semua method sesuai spesifikasi slide 17
+- [ ] Semua method sesuai spesifikasi bagian Latihan Mandiri
 - [ ] Output cocok dengan contoh
 - [ ] Sudah coba jelaskan kode ke teman tanpa melihat
 
 ---
 
-## Slide 23 — Terima Kasih & Referensi
+## 23. Referensi
 
-# Terima Kasih 🙌
-### Sampai jumpa di Pertemuan 2 — Class & Object dengan Python
+Materi berikutnya membahas class dan object dengan Python sesuai urutan pembelajaran pada `Timeline.md`.
 
 **Referensi belajar:**
 
@@ -704,8 +799,12 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 - [W3Schools — Python Classes and Objects](https://www.w3schools.com/python/python_classes.asp)
 - [Refactoring Guru — Prinsip OOP](https://refactoring.guru/design-patterns)
 
-**Kontak:** kanal kelas SI-IIIA (discord/LMS kampus) — tanyakan kapan saja!
-
 ---
 
-*Dokumen ini bagian dari materi PBO USA-WP2360214. Kode contoh tersedia di `code/pertemuan-01/`.*
+## 24. Kode Praktikum Pertemuan 1
+
+- [`../code/pertemuan-01/mahasiswa.py`](../code/pertemuan-01/mahasiswa.py) — contoh class `Mahasiswa`, class attribute, instance attribute, method, dan constructor.
+- [`../code/pertemuan-01/perpustakaan.py`](../code/pertemuan-01/perpustakaan.py) — contoh interaksi object `Buku` dan `Anggota`.
+- [`../code/pertemuan-01/latihan_terbimbing.py`](../code/pertemuan-01/latihan_terbimbing.py) — scaffold latihan class `Dosen`.
+- [`../code/pertemuan-01/latihan_mandiri_1.py`](../code/pertemuan-01/latihan_mandiri_1.py) — scaffold latihan class `Produk`.
+
