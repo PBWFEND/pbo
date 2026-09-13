@@ -21,7 +21,7 @@ class Mahasiswa:
 
 
 if __name__ == "__main__":
-    mahasiswa = Mahasiswa("Budi Santoso", "SI-101")
+    mahasiswa = Mahasiswa("Jhon Doe", "SI-101")
     mahasiswa.ambil_mata_kuliah("Pemrograman Berorientasi Objek")
     mahasiswa.ambil_mata_kuliah("Basis Data")
     mahasiswa.tampilkan_krs()

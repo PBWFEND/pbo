@@ -158,7 +158,7 @@ class Mahasiswa:
         self.nim = nim
         self.mata_kuliah = []
 
-mahasiswa = Mahasiswa("Budi Santoso", "SI-101")
+mahasiswa = Mahasiswa("Jhon Doe", "SI-101")
 ```
 
 Constructor menerima argument dari pemanggil dan menyimpannya sebagai instance attribute menggunakan `self`.
