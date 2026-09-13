@@ -20,8 +20,11 @@ Jadwal :
 | 02 | [RPS — `RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx`](./RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx) | Rencana Pembelajaran Semester berbasis OBE: CPMK114, CPMK115, CPMK116, bobot, metode, dan asesmen |
 | 03 | [Timeline Pertemuan — `Timeline.md`](./Timeline.md) | Rencana 16 pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal |
 | 04 | [Materi Pertemuan 1 — `pertemuan-01/01-Pertemuan-1.md`](./pertemuan-01/01-Pertemuan-1.md) | 23 slide: pengantar OOP & Python, class/object/method/constructor, studi kasus perpustakaan, latihan & mini challenge |
-| 05 | [Quiz Pertemuan 1 — `pertemuan-01/02-Quiz-Pertemuan-1.md`](./pertemuan-01/02-Quiz-Pertemuan-1.md) | Lima soal tentang class, object, `self`, constructor, dan class attribute, beserta kunci jawaban untuk dosen |
-| 06 | Kode praktikum Pertemuan 1 — [`code/pertemuan-01/`](./code/pertemuan-01/) | Contoh lengkap: `mahasiswa.py`, `perpustakaan.py`; scaffold latihan: `latihan_terbimbing.py`, `latihan_mandiri_1.py` |
+| 05 | [Quiz Pertemuan 1 — `pertemuan-01/02-Quiz-Pertemuan-1.md`](./pertemuan-01/02-Quiz-Pertemuan-1.md) | Lima soal tentang class, object, `self`, constructor, dan class attribute |
+| 06 | Kode praktikum Pertemuan 1 — [`code/pertemuan-01/`](./code/pertemuan-01/) | Contoh lengkap dan scaffold latihan |
+| 07 | [Materi Pertemuan 2 — `pertemuan-02/01-Pertemuan-2.md`](./pertemuan-02/01-Pertemuan-2.md) | Class, object, attribute, method, constructor, interaksi object, CBL, latihan, quiz, dan asesmen |
+| 08 | [Quiz Pertemuan 2 — `pertemuan-02/02-Quiz-Pertemuan-2.md`](./pertemuan-02/02-Quiz-Pertemuan-2.md) | Lima soal tentang class, object, method, constructor, dan interaksi object |
+| 09 | Kode praktikum Pertemuan 2 — [`code/pertemuan-02/`](./code/pertemuan-02/) | Contoh lengkap dan scaffold latihan |
 
 ## Referensi Terkait
 
