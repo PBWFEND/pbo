@@ -10,9 +10,6 @@
 | **Model Pembelajaran** | Case Based Learning / Problem Based Learning |
 | **Stack** | Python 3 |
 
-> **Catatan penting:** Pertemuan 1 memperkenalkan konsep dasar OOP menggunakan Python melalui studi kasus Sistem Informasi. Materi ini menjadi dasar untuk class dan object pada pertemuan berikutnya, kemudian dilanjutkan dengan encapsulation, inheritance, polymorphism, abstraction, UML, dan mini project sesuai `Timeline.md`.
-
----
 
 ## Daftar Isi
 
@@ -40,9 +37,9 @@
   - [20. Pemanfaatan AI sebagai Coding Assistant](#20-pemanfaatan-ai-sebagai-coding-assistant)
   - [21. Rangkuman](#21-rangkuman)
   - [22. Asesmen dan Penugasan](#22-asesmen-dan-penugasan)
-    - [23. Persiapan menuju Pertemuan 2](#23-persiapan-menuju-pertemuan-2)
-    - [24. Referensi](#24-referensi)
-    - [25. Kode Praktikum Pertemuan 1](#25-kode-praktikum-pertemuan-1)
+  - [23. Persiapan menuju Pertemuan 2](#23-persiapan-menuju-pertemuan-2)
+  - [24. Referensi](#24-referensi)
+  - [25. Kode Praktikum Pertemuan 1](#25-kode-praktikum-pertemuan-1)
 
 ---
 
@@ -51,8 +48,6 @@
 Pertemuan 1 mendukung **CPMK114** dan `SUB-CPMK11401` pada RPS:
 
 > Mahasiswa mampu menjelaskan paradigma OOP serta class, object, attribute, method, dan constructor.
-
-Materi ini sesuai dengan `Timeline.md` Minggu 1: pengantar OOP dan Python, class, object, attribute, method, constructor, studi kasus Sistem Informasi, quiz, dan diskusi.
 
 ```mermaid
 timeline
@@ -107,13 +102,13 @@ Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transa
 | Apa yang bisa dilakukan entitas | **Method** |
 | Satu mahasiswa konkret | **Object** |
 
-> 💡 Kode yang lebih mudah **dimengerti**, **diperbaiki**, dan **dikembangkan** — skill yang paling dicari saat membangun aplikasi SI skala industri.
+> 💡 Kode yang lebih mudah **dipahami**, **diperbaiki**, dan **dikembangkan** merupakan kemampuan yang sangat dibutuhkan dalam membangun sistem informasi yang kompleks dan berkelanjutan.
 
 ---
 
 ## 4. Python untuk Pembelajaran OOP
 
-**Python = bahasa #1 dunia** (indeks TIOBE & IEEE Spectrum, 2021–sekarang)
+**Python merupakan bahasa pemrograman yang banyak digunakan secara luas** dalam berbagai bidang, termasuk pengembangan software, analitik data, otomasi, dan kecerdasan buatan.
 
 - **AI & Machine Learning:** PyTorch, TensorFlow, scikit-learn
 - **Data Engineering & Analytics:** pandas, Polars, Apache Airflow
@@ -125,7 +120,7 @@ Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transa
 
 - Sintaks bersih → fokus pada **konsep OOP**, bukan tata bahasa
 - `python3`, `pip`, `venv` tersedia di semua OS
-- Tool AI coding assistant (Copilot, Cursor, ChatGPT/Claude) paling matang untuk Python
+- Alat asisten pengodean berbasis AI seperti Copilot, Cursor, ChatGPT, dan Claude sangat menunjang proses belajar dan implementasi Python
 
 > 📈 Karier SI 2026: *Data Analyst* → *Data Engineer* → *AI Engineer* — semuanya Python-first.
 
@@ -210,7 +205,7 @@ Satu cetakan → banyak kue, tiap kue bisa berbeda isi (coklat, keju...).
   └─────────────────┘    └──────────────┘    └──────────────┘
 ```
 
-> Ingat: **class sekali dibuat, object bisa banyak** — masing-masing punya data sendiri.
+> Ingat: **satu class dapat digunakan untuk menghasilkan banyak object**; masing-masing object memiliki data yang dapat berbeda satu sama lain.
 
 ```mermaid
 flowchart LR
@@ -577,7 +572,7 @@ python perpustakaan.py
 3. Coba pinjam buku yang sama dua kali — amati pesan error-nya
 4. Panggil `buku1.pinjam()` langsung tanpa lewat `Anggota` — apa yang terjadi?
 
-> 💡 Jangan hanya membaca kode — **ubah, jalankan, rusak, perbaiki**. Itu cara belajar OOP tercepat.
+> 💡 Praktik terbaik untuk mempelajari OOP adalah dengan **membaca, memodifikasi, menjalankan, dan memperbaiki kode** secara berulang. Pendekatan ini membantu mahasiswa memahami hubungan antara struktur class, state object, dan perilaku program.
 
 ---
 
@@ -687,12 +682,12 @@ Tambahkan ke class `Buku` (dari `perpustakaan.py`):
 | 6 | Kirim `self` saat memanggil method | `m1.perkenalan(m1)` | `m1.perkenalan()` |
 | 7 | Pakai `=` bukan `==` di kondisi | `if tersedia = True:` | `if self.tersedia:` |
 
-**Error yang paling sering muncul malam ini:**
+**Error yang paling sering muncul pada tahap awal pembelajaran:**
 
 ```python
 TypeError: pinjam() takes 0 positional arguments but 1 was given
 ```
-→ artinya kamu lupa menulis `self` di parameter method. 🙂
+→ artinya Anda lupa menulis `self` pada parameter method.
 
 **Class attribute vs instance attribute:**
 

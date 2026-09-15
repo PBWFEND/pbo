@@ -34,9 +34,9 @@
   - [14. Latihan Individu](#14-latihan-individu)
   - [15. Pemanfaatan AI sebagai Coding Assistant](#15-pemanfaatan-ai-sebagai-coding-assistant)
   - [16. Kuis Formatif](#16-kuis-formatif)
-    - [17. Asesmen dan Penugasan](#17-asesmen-dan-penugasan)
-    - [18. Persiapan menuju Pertemuan 3](#18-persiapan-menuju-pertemuan-3)
-    - [19. Referensi dan Kode Praktikum](#19-referensi-dan-kode-praktikum)
+  - [17. Asesmen dan Penugasan](#17-asesmen-dan-penugasan)
+  - [18. Persiapan menuju Pertemuan 3](#18-persiapan-menuju-pertemuan-3)
+  - [19. Referensi dan Kode Praktikum](#19-referensi-dan-kode-praktikum)
 
 ---
 
@@ -300,11 +300,11 @@ Implementasi tersedia pada [`../code/pertemuan-02/perpustakaan_object.py`](../co
 python3 ../code/pertemuan-02/perpustakaan_object.py
 ```
 
-Diskusi CBL:
+Pertanyaan refleksi:
 
 1. Mengapa `Anggota` tidak mengubah `buku.tersedia` secara langsung?
 2. Apa yang terjadi jika dua anggota mencoba meminjam object `Buku` yang sama?
-3. Method mana yang bertanggung jawab mengubah status buku?
+3. Method mana yang bertanggung jawab untuk mengubah status buku?
 
 ---
 
@@ -420,4 +420,3 @@ Kode praktikum:
 - [`../code/pertemuan-02/perpustakaan_object.py`](../code/pertemuan-02/perpustakaan_object.py) — contoh interaksi object perpustakaan.
 - [`../code/pertemuan-02/latihan_terbimbing_2.py`](../code/pertemuan-02/latihan_terbimbing_2.py) — scaffold praktikum terbimbing.
 - [`../code/pertemuan-02/latihan_mandiri_2.py`](../code/pertemuan-02/latihan_mandiri_2.py) — scaffold latihan mandiri.
-- [`../code/pertemuan-02/_kunci-jawaban/latihan_mandiri_2.py`](../code/pertemuan-02/_kunci-jawaban/latihan_mandiri_2.py) — kunci jawaban untuk dosen.
