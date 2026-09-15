@@ -1,14 +1,7 @@
-# Timeline Pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal
+# Timeline – PBO
 
-#### Jadwal | SI SI-IIIA | RABU 15:30-18:00 | LAB. 2
+[![Hari](https://img.shields.io/badge/Hari-Rabu-2ecc71?style=for-the-badge)](https://) [![Jam](https://img.shields.io/badge/Jam-15:30--18:00-0A66C2?style=for-the-badge)](https://) [![Ruang](https://img.shields.io/badge/Ruang-LAB.%202-ff8c42?style=for-the-badge)](https://) [![SKS](https://img.shields.io/badge/SKS-3%20SKS-8b5cf6?style=for-the-badge)](https://) [![Kelas](https://img.shields.io/badge/Kelas-SI--IIIA-10b981?style=for-the-badge)](https://)
 
-**Mulai kuliah:** Rabu, 16 September 2026
-
-**Jumlah pertemuan:** 16 minggu
-
-**Bahasa utama:** Python 3.x
-
-**Model pembelajaran:** CBL, PBL, dan Project Based Learning
 
 | Minggu | Tanggal         | CPMK    | Fokus / Materi Pertemuan                                                              | Aktivitas Utama                                                              | Output / Asesmen             |
 | -----: | --------------- | ------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------- |
