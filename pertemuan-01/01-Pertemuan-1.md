@@ -85,24 +85,79 @@ Setelah mengikuti pertemuan ini, mahasiswa mampu:
 
 ## 3. Relevansi OOP untuk Sistem Informasi
 
-Sistem Informasi (SI) memodelkan **dunia nyata**: mahasiswa, dosen, buku, transaksi, pegawai...
+Sistem Informasi (SI) mengelola berbagai entitas dan proses, seperti data mahasiswa, dosen, buku, transaksi, dan pegawai. Setiap entitas memiliki data serta tindakan yang dapat dilakukan terhadap data tersebut. Misalnya, object `Buku` memiliki judul dan status ketersediaan, sedangkan method `pinjam()` dapat mengubah status tersebut.
 
-**Masalah pendekatan prosedural saat program membesar:**
+Pada tahap awal, data dan fungsi dapat dikelola secara terpisah dengan pendekatan prosedural. Namun, ketika aplikasi bertambah besar, hubungan antara data dan fungsi perlu diatur secara lebih jelas.
 
-- Data (variabel) dan perilaku (fungsi) **terpisah** → mudah tidak sinkron
-- Perubahan kecil bisa merusak bagian lain (*ripple effect*)
-- Sulit memetakan kode ke entitas bisnis yang dihadapi user
+**Masalah yang dapat muncul:**
 
-**Yang ditawarkan OOP:**
+- Data (variabel) dan perilaku (fungsi) **terpisah**, sehingga fungsi dapat menerima atau mengubah data yang tidak sesuai.
+- Perubahan pada satu bagian program dapat memengaruhi bagian lain dan menyulitkan proses pemeliharaan.
+- Struktur kode menjadi lebih sulit dipetakan ke entitas dan proses yang dipahami pengguna Sistem Informasi.
 
-| Dunia Nyata / SI | OOP |
+**Tujuan penggunaan OOP:**
+
+OOP menggabungkan data dan perilaku yang berkaitan ke dalam object. Pengelompokan ini membantu mahasiswa merancang program berdasarkan entitas pada domain Sistem Informasi. Dengan demikian, mahasiswa dapat menentukan data yang dimiliki suatu entitas, tindakan yang dapat dilakukan, serta hubungan antara satu object dan object lainnya.
+
+| Entitas / SI | OOP |
 | ---------------- | --- |
 | Mahasiswa, Buku, Transaksi | **Class** |
 | Data yang dimiliki entitas | **Attribute** |
 | Apa yang bisa dilakukan entitas | **Method** |
 | Satu mahasiswa konkret | **Object** |
 
-> 💡 Kode yang lebih mudah **dipahami**, **diperbaiki**, dan **dikembangkan** merupakan kemampuan yang sangat dibutuhkan dalam membangun sistem informasi yang kompleks dan berkelanjutan.
+**Contoh berpikir OOP dalam kehidupan sehari-hari:**
+
+Ketika menggunakan aplikasi pemesanan makanan, Anda dapat mengidentifikasi beberapa object, seperti `Pelanggan`, `Restoran`, `Menu`, dan `Pesanan`. Setiap object memiliki data dan tindakan yang berbeda:
+
+| Object | Contoh attribute | Contoh method |
+| ------ | ---------------- | ------------- |
+| `Pelanggan` | nama, alamat | `buat_pesanan()` |
+| `Restoran` | nama, alamat, status_buka | `terima_pesanan()` |
+| `Menu` | nama_makanan, harga, tersedia | `ubah_ketersediaan()` |
+| `Pesanan` | nomor, daftar_menu, status | `hitung_total()`, `ubah_status()` |
+
+Cara berpikir tersebut membantu Anda mengubah aktivitas sehari-hari menjadi rancangan program. Anda tidak langsung memulai dari baris kode, tetapi terlebih dahulu mengidentifikasi object, data yang dimilikinya, tindakan yang dapat dilakukan, dan hubungan antar-object. Langkah ini menjadi dasar ketika Anda merancang Sistem Informasi.
+
+Alur interaksi antar-object pada proses pemesanan dapat digambarkan sebagai berikut:
+
+```mermaid
+flowchart LR
+    A[Pelanggan membuat pesanan] --> B[Pesanan menghitung total]
+    B --> C[Restoran menerima pesanan]
+    C --> D[Menu diperbarui]
+    D --> E[Pesanan mengubah status]
+    E --> F[Pelanggan menerima pesanan]
+```
+
+Diagram tersebut menunjukkan bahwa object tidak berdiri sendiri. Method pada satu object dapat memicu perubahan pada object lain. Dalam program Python, hubungan ini diwujudkan melalui pemanggilan method dan pengiriman object sebagai argument.
+
+**Contoh berpikir OOP dalam organisasi:**
+
+Pada organisasi kampus, proses pengajuan surat dapat dimodelkan dengan beberapa object. `Pegawai` mengajukan dokumen, `Departemen` memeriksa kelengkapan, dan `Pengajuan` menyimpan status proses. Setiap object memiliki tanggung jawab yang berbeda:
+
+| Object | Contoh attribute | Contoh method |
+| ------ | ---------------- | ------------- |
+| `Pegawai` | nama, nomor_pegawai, departemen | `buat_pengajuan()` |
+| `Departemen` | nama, daftar_pegawai | `periksa_pengajuan()` |
+| `Pengajuan` | nomor, jenis_surat, status | `ubah_status()`, `tampilkan_detail()` |
+
+Alur prosesnya dapat diringkas sebagai berikut:
+
+```mermaid
+flowchart TD
+    A[Pegawai membuat Pengajuan] --> B[Departemen memeriksa data]
+    B -->|lengkap| C[Pengajuan disetujui]
+    B -->|belum lengkap| D[Pengajuan dikembalikan]
+    D --> A
+    C --> E[Dokumen diterbitkan]
+```
+
+Contoh organisasi tersebut menunjukkan manfaat OOP dalam mengelola proses yang memiliki data, aturan, dan perubahan status. Mahasiswa dapat menggunakan pola analisis yang sama untuk merancang Sistem Informasi akademik, perpustakaan, kepegawaian, atau layanan administrasi.
+
+**Hasil pembelajaran yang diharapkan:**
+
+Setelah mempelajari bagian ini, mahasiswa mampu menjelaskan alasan penggunaan OOP, mengidentifikasi class, attribute, dan method dari suatu entitas Sistem Informasi, serta membuat object sederhana berdasarkan rancangan tersebut. Kode yang dihasilkan diharapkan lebih mudah dipahami, diperbaiki, dan dikembangkan karena data serta perilaku yang berkaitan ditempatkan dalam struktur yang sama.
 
 ---
 
@@ -141,6 +196,19 @@ def tampilkan(nama, nim, sks):
 
 tampilkan(mahasiswa_nama, mahasiswa_nim, mahasiswa_sks)
 ```
+
+**Apa fungsi `f"..."` pada contoh kode?**
+
+`f"..."` disebut **f-string** atau *formatted string literal*. Huruf `f` sebelum tanda kutip memberi tahu Python bahwa nilai di dalam kurung kurawal `{}` harus dievaluasi dan dimasukkan ke dalam teks.
+
+```python
+nama = "Budi"
+sks = 24
+print(f"{nama} memiliki {sks} SKS")
+# Output: Budi memiliki 24 SKS
+```
+
+Pada contoh tersebut, `{nama}` diganti dengan nilai variabel `nama`, sedangkan `{sks}` diganti dengan nilai variabel `sks`. Tanpa awalan `f`, Python akan menampilkan `{nama}` dan `{sks}` sebagai teks biasa. Tanda kutip `"..."` tetap berfungsi untuk menandai awal dan akhir string.
 
 **OOP:** data + perilaku dibungkus jadi satu (**object**)
 
@@ -584,16 +652,16 @@ Buat class `Dosen` dengan spesifikasi:
 
 | Bagian | Isi |
 | ------ | --- |
-| Attribute | `nama`, `nidn`, `mata_kuliah` |
+| Attribute | `nama`, `nuptk`, `mata_kuliah` |
 | Constructor | menerima 3 parameter di atas |
 | Method `mengajar()` | cetak `"Dosen {nama} mengajar {mata_kuliah}"` |
-| Method `perkenalan()` | cetak `"Saya {nama}, NIDN {nidn}"` |
+| Method `perkenalan()` | cetak `"Saya {nama}, NUPTK {nuptk}"` |
 
 **Kerangka awal (lengkapi):**
 
 ```python
 class Dosen:
-    def __init__(self, nama, nidn, mata_kuliah):
+    def __init__(self, nama, nuptk, mata_kuliah):
         # TODO 1: simpan ketiga parameter sebagai attribute
         pass
 
@@ -602,13 +670,13 @@ class Dosen:
         pass
 
     def perkenalan(self):
-        # TODO 3: cetak "Saya {nama}, NIDN {nidn}"
+        # TODO 3: cetak "Saya {nama}, NUPTK {nuptk}"
         pass
 
 
-dosen = Dosen("Pak Yofi", "001234", "PBO")
-dosen.mengajar()      # Dosen Pak Yofi mengajar PBO
-dosen.perkenalan()    # Saya Pak Yofi, NIDN 001234
+dosen = Dosen("Pak Yys", "1234567890123456", "PBO")
+dosen.mengajar()      # Dosen Pak Yys mengajar PBO
+dosen.perkenalan()    # Saya Pak Yys, NUPTK 1234567890123456
 ```
 
 **Target:** mahasiswa menyelesaikan 3 TODO bersama, lalu jalankan dan cocokkan output.

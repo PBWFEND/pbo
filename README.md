@@ -23,6 +23,9 @@
 | 10 | [Materi Pertemuan 3 — `pertemuan-03/01-Pertemuan-3.md`](./pertemuan-03/01-Pertemuan-3.md) | Encapsulation, access control, private attribute, property, getter, setter, CBL, latihan, quiz, dan asesmen |
 | 11 | [Quiz Pertemuan 3 — `pertemuan-03/02-Quiz-Pertemuan-3.md`](./pertemuan-03/02-Quiz-Pertemuan-3.md) | Lima soal tentang encapsulation dan validasi data object |
 | 12 | Kode praktikum Pertemuan 3 — [`code/pertemuan-03/`](./code/pertemuan-03/) | Contoh property dan validasi serta scaffold latihan |
+| 13 | [Materi Pertemuan 4 — `pertemuan-04/01-Pertemuan-4.md`](./pertemuan-04/01-Pertemuan-4.md) | Inheritance, superclass, subclass, `super()`, overriding, CBL, latihan, quiz, dan asesmen |
+| 14 | [Quiz Pertemuan 4 — `pertemuan-04/02-Quiz-Pertemuan-4.md`](./pertemuan-04/02-Quiz-Pertemuan-4.md) | Lima soal tentang inheritance, `super()`, dan overriding |
+| 15 | Kode praktikum Pertemuan 4 — [`code/pertemuan-04/`](./code/pertemuan-04/) | Contoh inheritance, scaffold latihan, dan kunci jawaban kode |
 
 ## Referensi Terkait
 

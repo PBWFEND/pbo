@@ -33,9 +33,9 @@
   - [13. Latihan Individu](#13-latihan-individu)
   - [14. Pemanfaatan AI sebagai Coding Assistant](#14-pemanfaatan-ai-sebagai-coding-assistant)
   - [15. Kuis Formatif](#15-kuis-formatif)
-    - [16. Asesmen dan Penugasan](#16-asesmen-dan-penugasan)
-    - [17. Persiapan menuju Pertemuan 4](#17-persiapan-menuju-pertemuan-4)
-    - [18. Referensi dan Kode Praktikum](#18-referensi-dan-kode-praktikum)
+  - [16. Asesmen dan Penugasan](#16-asesmen-dan-penugasan)
+  - [17. Persiapan menuju Pertemuan 4](#17-persiapan-menuju-pertemuan-4)
+  - [18. Referensi dan Kode Praktikum](#18-referensi-dan-kode-praktikum)
 
 ---
 
@@ -277,7 +277,7 @@ print(anggota.ringkasan())
 Diskusi:
 
 1. Mengapa nomor kontak disimpan melalui setter?
-2. Apa response program jika nomor kontak tidak memenuhi aturan?
+2. Bagaimana output program jika nomor kontak tidak memenuhi aturan validasi?
 3. Data apa yang sebaiknya tidak diubah langsung dari luar class?
 
 ---
@@ -313,7 +313,7 @@ Latihan mandiri harus memenuhi ketentuan:
 
 ## 14. Pemanfaatan AI sebagai Coding Assistant
 
-**AI assistant (GitHub Copilot, ChatGPT, Claude, Gemini) boleh dipakai — dengan cara yang benar:**
+**AI assistant (GitHub Copilot, ChatGPT, Claude, Gemini) dapat digunakan dengan pendekatan yang tepat:**
 
 **✅ Gunakan AI untuk:**
 
@@ -395,4 +395,4 @@ Kode praktikum:
 - [`../code/pertemuan-03/akun_perpustakaan.py`](../code/pertemuan-03/akun_perpustakaan.py) — contoh property nomor kontak.
 - [`../code/pertemuan-03/latihan_terbimbing_3.py`](../code/pertemuan-03/latihan_terbimbing_3.py) — scaffold latihan terbimbing.
 - [`../code/pertemuan-03/latihan_mandiri_3.py`](../code/pertemuan-03/latihan_mandiri_3.py) — scaffold latihan mandiri.
-- [`../code/pertemuan-03/_kunci-jawaban/latihan_mandiri_3.py`](../code/pertemuan-03/_kunci-jawaban/latihan_mandiri_3.py) — kunci jawaban kode untuk dosen.
+
