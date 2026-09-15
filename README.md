@@ -11,7 +11,7 @@
 
 | No. | Dokumen | Deskripsi |
 | :-: | ------- | --------- |
-| 01 | [Panduan Penggunaan IDE — `01-IDE.md`](./01-IDE.md) | Cara menjalankan program Python: pilihan IDE, instalasi Python, dan penggunaan VS Code |
+| 01 | [Panduan Penggunaan & Instalasi IDE — `panduan/Instalasi-IDE.md`](./panduan/Instalasi-IDE.md) | Cara menjalankan program Python: pilihan IDE, instalasi Python, setup VS Code/PyCharm, dan jalur eksekusi file |
 | 02 | [RPS — `RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx`](./RPS_Pemrograman_Berorientasi_Objek_Final_OBE_Python.xlsx) | Rencana Pembelajaran Semester berbasis OBE: CPMK114, CPMK115, CPMK116, bobot, metode, dan asesmen |
 | 03 | [Timeline Pertemuan — `Timeline.md`](./Timeline.md) | Rencana 16 pertemuan Pemrograman Berorientasi Objek — Semester 2026/2027 Gasal |
 | 04 | [Materi Pertemuan 1 — `pertemuan-01/01-Pertemuan-1.md`](./pertemuan-01/01-Pertemuan-1.md) | 23 slide: pengantar OOP & Python, class/object/method/constructor, studi kasus perpustakaan, latihan & mini challenge |
@@ -26,15 +26,20 @@
 
 ## Referensi Terkait
 
-### 01-IDE.md — Panduan IDE & Tools Python
+### panduan/Instalasi-IDE.md — Panduan IDE & Tools Python
 
-- [Python.org — Downloads](https://www.python.org/downloads/) — unduhan resmi Python Interpreter
-- [VS Code — Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial) — panduan resmi setup VS Code untuk Python
-- [Extension Python di VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python) — extension resmi dari Microsoft
-- [PyCharm](https://www.jetbrains.com/pycharm/) — IDE Python dari JetBrains
+- [Python.org — Downloads](https://www.python.org/downloads/) — unduhan resmi Python 3 interpreter
+- [Python.org — The Python Tutorial](https://docs.python.org/3/tutorial/index.html) — tutorial resmi dasar Python dan penggunaan interpreter
+- [Python.org — Installing Python on Windows](https://docs.python.org/3/using/windows.html) — panduan resmi instalasi Python di Windows
+- [VS Code — Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial) — setup Python dan extension di VS Code secara resmi
+- [VS Code — Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) — extension resmi Python dari Microsoft
+- [PyCharm — Download](https://www.jetbrains.com/pycharm/download/) — unduhan resmi IDE Python JetBrains
+- [PyCharm — Quick Start Guide](https://www.jetbrains.com/help/pycharm/quick-start-guide.html) — panduan cepat penggunaan PyCharm
+- [JDoodle — Python Online Compiler](https://www.jdoodle.com/python-programming-online) — lingkungan online untuk menjalankan kode Python tanpa instalasi
+- [OneCompiler — Python](https://onecompiler.com/python) — compiler online alternatif untuk uji coba cepat
 - [Duniailkom — Cara Menjalankan File Python dari CMD](https://www.duniailkom.com/tutorial-belajar-python-cara-menjalankan-file-python-dari-cmd/) — tutorial dasar untuk pemula
 - [DQLab — Tutorial Jalankan Script Python dengan 4 Pilihan Cara](https://dqlab.id/tutorial-jalankan-script-python-dengan-4-pilihan-cara)
-- Compiler online: [JDoodle](https://www.jdoodle.com/python-programming-online) · [OneCompiler](https://onecompiler.com/python)
+- [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/) — standar gaya penulisan kode Python yang rapi dan konsisten
 
 ### Timeline.md — Materi OOP dengan Python
 
