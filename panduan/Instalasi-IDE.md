@@ -53,7 +53,7 @@ Jika kalian sudah pernah menggunakan atau meng-install VS Code, silakan tambahka
 
 Kalian dapat menjalankan program Python dengan cara klik kanan _file_ dengan ekstensi `.py` setelah itu klik `Run Python File in Terminal`.
 
-## Referensi Relevan
+## Referensi Terkait
 
 Berikut beberapa sumber resmi yang dapat kalian gunakan untuk mempelajari dan menyiapkan lingkungan Python dengan lebih lengkap:
 
