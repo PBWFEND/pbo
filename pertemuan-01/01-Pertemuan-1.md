@@ -512,7 +512,7 @@ Anggota --pinjam_buku(buku)--> Buku
    ▼                             ▼
 ```
 
-> 🎯 Ini yang dimaksud "OOP memodelkan dunia nyata": object **saling bekerja sama** lewat pemanggilan method.
+Diagram tersebut menunjukkan bagaimana OOP merepresentasikan proses bisnis melalui interaksi antar-object. Object `Anggota` memanggil method dengan object `Buku` sebagai argument. Proses tersebut mengubah state `Buku` menjadi tidak tersedia dan menambahkan object tersebut ke dalam `daftar_pinjam` milik `Anggota`.
 
 ```mermaid
 sequenceDiagram
@@ -619,19 +619,28 @@ Pinjaman Citra:
 
 ## 15. Menjalankan Kode Praktikum
 
-Cara menjalankan file contoh (lihat juga `01-IDE.md`):
+Cara menjalankan file contoh berikut menggunakan struktur repositori saat ini. Lihat juga [Panduan Penggunaan & Instalasi IDE](../panduan/Instalasi-IDE.md).
 
 ```bash
-# 1. Pastikan Python 3 ter-install
-python --version
+# 1. Pastikan Python 3 terinstal
+python3 --version
 
-# 2. Masuk folder kode
-cd ../code/pertemuan-01
+# 2. Jalankan perintah dari root repositori USA-WP2360214-PBO
+cd code/pertemuan-01
 
-# 3. Jalankan
-python mahasiswa.py
-python perpustakaan.py
+# 3. Jalankan file contoh
+python3 mahasiswa.py
+python3 perpustakaan.py
 ```
+
+Jika terminal sudah berada di folder root repositori, perintah lengkapnya adalah:
+
+```bash
+python3 code/pertemuan-01/mahasiswa.py
+python3 code/pertemuan-01/perpustakaan.py
+```
+
+Pada Windows, gunakan `python` atau `py` apabila perintah `python3` tidak tersedia.
 
 **Eksperimen yang disarankan saat praktikum:**
 
