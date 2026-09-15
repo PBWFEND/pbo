@@ -6,11 +6,6 @@
 ![Pertemuan](https://img.shields.io/badge/Pertemuan-16%20Minggu-purple)
 ![Model](https://img.shields.io/badge/Pembelajaran-CBL%20%7C%20PBL%20%7C%20PjBL-red)
 
-Mata kuliah **Pemrograman Berorientasi Objek (PBO)** menggunakan **Python 3** (2 SKS, Semester 3, Program Studi Sistem Informasi). Mahasiswa mempelajari paradigma OOP — *class, object, encapsulation, inheritance, polymorphism,* dan *abstraction* — dilanjutkan dengan analisis dan desain *object* berbasis studi kasus Sistem Informasi, pemodelan **UML Class Diagram**, hingga implementasi **mini project** aplikasi berbasis *object* (CRUD, exception handling, testing, dan dokumentasi).
-
-Jadwal :
-
-- SI-IIIA | RABU | 15:30-18:00 | LAB. 2
 
 ## Daftar Isi
 
