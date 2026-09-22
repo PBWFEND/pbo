@@ -29,6 +29,9 @@
 | 16 | [Materi Pertemuan 5 — `pertemuan-05/01-Pertemuan-5.md`](./pertemuan-05/01-Pertemuan-5.md) | Polymorphism, overriding, duck typing, CBL, latihan, quiz, dan asesmen |
 | 17 | [Quiz Pertemuan 5 — `pertemuan-05/02-Quiz-Pertemuan-5.md`](./pertemuan-05/02-Quiz-Pertemuan-5.md) | Lima soal tentang polymorphism, overriding, dan duck typing |
 | 18 | Kode praktikum Pertemuan 5 — [`code/pertemuan-05/`](./code/pertemuan-05/) | Contoh polymorphism, scaffold latihan|
+| 19 | [Materi Pertemuan 6 — `pertemuan-06/01-Pertemuan-6.md`](./pertemuan-06/01-Pertemuan-6.md) | Abstraction, abstract class, ABC, abstract method, kontrak perilaku, CBL, latihan, quiz, dan asesmen |
+| 20 | [Quiz Pertemuan 6 — `pertemuan-06/02-Quiz-Pertemuan-6.md`](./pertemuan-06/02-Quiz-Pertemuan-6.md) | Lima soal tentang abstraction, abstract class, dan abstract method |
+| 21 | Kode praktikum Pertemuan 6 — [`code/pertemuan-06/`](./code/pertemuan-06/) | Contoh abstraction, scaffold latihan,|
 
 ## Referensi Terkait
 
