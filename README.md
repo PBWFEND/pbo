@@ -32,6 +32,9 @@
 | 19 | [Materi Pertemuan 6 — `pertemuan-06/01-Pertemuan-6.md`](./pertemuan-06/01-Pertemuan-6.md) | Abstraction, abstract class, ABC, abstract method, kontrak perilaku, CBL, latihan, quiz, dan asesmen |
 | 20 | [Quiz Pertemuan 6 — `pertemuan-06/02-Quiz-Pertemuan-6.md`](./pertemuan-06/02-Quiz-Pertemuan-6.md) | Lima soal tentang abstraction, abstract class, dan abstract method |
 | 21 | Kode praktikum Pertemuan 6 — [`code/pertemuan-06/`](./code/pertemuan-06/) | Contoh abstraction, scaffold latihan,|
+| 22 | [Materi Pertemuan 7 — `pertemuan-07/01-Pertemuan-7.md`](./pertemuan-07/01-Pertemuan-7.md) | OOP vs procedural programming, analisis kebutuhan, perbandingan pendekatan, CBL, latihan, quiz, dan asesmen |
+| 23 | [Quiz Pertemuan 7 — `pertemuan-07/02-Quiz-Pertemuan-7.md`](./pertemuan-07/02-Quiz-Pertemuan-7.md) | Lima soal tentang perbedaan OOP dan procedural programming |
+| 24 | Kode praktikum Pertemuan 7 — [`code/pertemuan-07/`](./code/pertemuan-07/) | Contoh prosedural dan OOP, scaffold latihan, |
 
 ## Referensi Terkait
 
