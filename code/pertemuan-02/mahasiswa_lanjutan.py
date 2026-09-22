@@ -7,7 +7,7 @@ class Mahasiswa:
     def __init__(self, nama, nim):
         self.nama = nama
         self.nim = nim
-        self.mata_kuliah = []
+        self.mata_kuliah = []  # list berisi nama mata kuliah
 
     def ambil_mata_kuliah(self, mata_kuliah):
         if mata_kuliah not in self.mata_kuliah:

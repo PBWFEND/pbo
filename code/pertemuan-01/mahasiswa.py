@@ -1,14 +1,18 @@
+"""Contoh Pertemuan 1: class, object, attribute, method, dan constructor."""
+
+
 class Mahasiswa:
     """Class Mahasiswa untuk data akademik sederhana."""
 
-    jumlah_mahasiswa = 0  # class attribute
+    jumlah_mahasiswa = 0  # class attribute: dimiliki bersama oleh semua object
 
     def __init__(self, nama, nim, prodi="Sistem Informasi"):
+        # Constructor: mengisi attribute instance saat object dibuat.
         self.nama = nama
         self.nim = nim
         self.prodi = prodi
         self.sks = 0
-        Mahasiswa.jumlah_mahasiswa += 1
+        Mahasiswa.jumlah_mahasiswa += 1  # menambah jumlah object yang dibuat
 
     def tambah_sks(self, jumlah):
         self.sks += jumlah
@@ -18,6 +22,7 @@ class Mahasiswa:
         print(f"Halo, saya {self.nama} ({self.nim}) - {self.prodi}")
 
     def __str__(self):
+        # Method khusus untuk representasi string object.
         return f"Mahasiswa({self.nama}, {self.nim})"
 
 

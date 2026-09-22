@@ -7,7 +7,7 @@ class Buku:
     def __init__(self, judul, penulis):
         self.judul = judul
         self.penulis = penulis
-        self.tersedia = True
+        self.tersedia = True  # status ketersediaan buku
 
     def pinjam(self):
         if not self.tersedia:
@@ -24,10 +24,10 @@ class Anggota:
 
     def __init__(self, nama):
         self.nama = nama
-        self.daftar_buku = []
+        self.daftar_buku = []  # list berisi object Buku
 
     def pinjam_buku(self, buku):
-        if buku.pinjam():
+        if buku.pinjam():  # memanggil method object Buku lain
             self.daftar_buku.append(buku)
             print(f"{self.nama} meminjam {buku.judul}")
             return True

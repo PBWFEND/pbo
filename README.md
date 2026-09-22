@@ -26,6 +26,9 @@
 | 13 | [Materi Pertemuan 4 — `pertemuan-04/01-Pertemuan-4.md`](./pertemuan-04/01-Pertemuan-4.md) | Inheritance, superclass, subclass, `super()`, overriding, CBL, latihan, quiz, dan asesmen |
 | 14 | [Quiz Pertemuan 4 — `pertemuan-04/02-Quiz-Pertemuan-4.md`](./pertemuan-04/02-Quiz-Pertemuan-4.md) | Lima soal tentang inheritance, `super()`, dan overriding |
 | 15 | Kode praktikum Pertemuan 4 — [`code/pertemuan-04/`](./code/pertemuan-04/) | Contoh inheritance, scaffold latihan, dan kunci jawaban kode |
+| 16 | [Materi Pertemuan 5 — `pertemuan-05/01-Pertemuan-5.md`](./pertemuan-05/01-Pertemuan-5.md) | Polymorphism, overriding, duck typing, CBL, latihan, quiz, dan asesmen |
+| 17 | [Quiz Pertemuan 5 — `pertemuan-05/02-Quiz-Pertemuan-5.md`](./pertemuan-05/02-Quiz-Pertemuan-5.md) | Lima soal tentang polymorphism, overriding, dan duck typing |
+| 18 | Kode praktikum Pertemuan 5 — [`code/pertemuan-05/`](./code/pertemuan-05/) | Contoh polymorphism, scaffold latihan|
 
 ## Referensi Terkait
 

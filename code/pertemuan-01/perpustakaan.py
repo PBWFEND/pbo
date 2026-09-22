@@ -1,10 +1,13 @@
+"""Contoh Pertemuan 1: interaksi object Buku dan Anggota perpustakaan."""
+
+
 class Buku:
     """Merepresentasikan satu buku di perpustakaan."""
 
     def __init__(self, judul, penulis):
         self.judul = judul
         self.penulis = penulis
-        self.tersedia = True
+        self.tersedia = True  # status ketersediaan buku
 
     def pinjam(self):
         if self.tersedia:
@@ -29,7 +32,7 @@ class Anggota:
         self.daftar_pinjam = []  # list berisi object Buku
 
     def pinjam_buku(self, buku):
-        if buku.pinjam():  # object Buku bekerja
+        if buku.pinjam():  # memanggil method object Buku lain
             self.daftar_pinjam.append(buku)
             print(f"{self.nama} meminjam '{buku.judul}'")
         else:
