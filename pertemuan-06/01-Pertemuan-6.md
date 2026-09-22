@@ -232,7 +232,7 @@ classDiagram
     Pengguna <|-- Admin
 ```
 
-Tanda `*` pada `tampilkan_peran()` menunjukkan abstract method. Subclass wajib mengimplementasikan method tersebut sebelum dapat diinstansiasi.
+Pada kode diagram, `tampilkan_peran()` ditulis dengan tanda `*` di akhir (`tampilkan_peran()*`) untuk menandai abstract method. Saat diagram dirender, method abstract ditampilkan dengan huruf miring (italic). Subclass wajib mengimplementasikan method tersebut sebelum dapat diinstansiasi.
 
 ---
 
