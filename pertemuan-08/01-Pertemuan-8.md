@@ -28,7 +28,7 @@
   - [8. Strategi Pengerjaan Soal Teori](#8-strategi-pengerjaan-soal-teori)
   - [9. Strategi Pengerjaan Soal Coding](#9-strategi-pengerjaan-soal-coding)
   - [10. Studi Kasus: Domain Sistem Informasi](#10-studi-kasus-domain-sistem-informasi)
-  - [11. Case Based Learning: Latihan Persiapan UTS](#11-case-based-learning-latihan-persiapan-uts)
+    - [11. Latihan Terbimbing: Persiapan UTS](#11-latihan-terbimbing-persiapan-uts)
   - [12. Aktivitas Kelompok](#12-aktivitas-kelompok)
   - [13. Latihan Individu](#13-latihan-individu)
   - [14. Pemanfaatan AI sebagai Coding Assistant](#14-pemanfaatan-ai-sebagai-coding-assistant)
@@ -203,9 +203,9 @@ Dari skenario tersebut, soal dapat meminta Anda membuat class `Buku` dan `Anggot
 
 ---
 
-## 11. Case Based Learning: Latihan Persiapan UTS
+## 11. Latihan Terbimbing: Persiapan UTS
 
-Scaffold latihan persiapan tersedia pada:
+Latihan terbimbing untuk persiapan UTS menggunakan scaffold berikut:
 
 - [`../code/pertemuan-08/latihan_persiapan_uts.py`](../code/pertemuan-08/latihan_persiapan_uts.py) — scaffold latihan gabungan konsep OOP.
 

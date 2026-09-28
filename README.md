@@ -47,6 +47,9 @@
 | 34 | [Materi Pertemuan 11 — `pertemuan-11/01-Pertemuan-11.md`](./pertemuan-11/01-Pertemuan-11.md) | UML class diagram, visibility, multiplicity, association, aggregation, composition, dan inheritance |
 | 35 | [Quiz Pertemuan 11 — `pertemuan-11/02-Quiz-Pertemuan-11.md`](./pertemuan-11/02-Quiz-Pertemuan-11.md) | Lima soal tentang struktur UML dan relasi antar-class |
 | 36 | Kode praktikum Pertemuan 11 — [`code/pertemuan-11/`](./code/pertemuan-11/) | Contoh diagram akademik dan scaffold latihan UML serta relasi antar-class |
+| 37 | [Materi Pertemuan 12 — `pertemuan-12/01-Pertemuan-12.md`](./pertemuan-12/01-Pertemuan-12.md) | Implementasi mini project berbasis OOP dari UML, struktur module, class layanan, dan skenario penggunaan |
+| 38 | [Quiz Pertemuan 12 — `pertemuan-12/02-Quiz-Pertemuan-12.md`](./pertemuan-12/02-Quiz-Pertemuan-12.md) | Lima soal tentang penerjemahan UML, struktur module, relasi object, dan class layanan |
+| 39 | Kode praktikum Pertemuan 12 — [`code/pertemuan-12/`](./code/pertemuan-12/) | Contoh Sistem Peminjaman Ruang dan scaffold latihan implementasi mini project |
 
 ## Referensi Terkait
 

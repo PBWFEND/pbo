@@ -28,7 +28,7 @@
   - [8. Interaksi Antar-Object](#8-interaksi-antar-object)
   - [9. Validasi dan Penanganan Kondisi](#9-validasi-dan-penanganan-kondisi)
   - [10. Studi Kasus: Aplikasi Perpustakaan Sederhana](#10-studi-kasus-aplikasi-perpustakaan-sederhana)
-  - [11. Case Based Learning: Implementasi Aplikasi](#11-case-based-learning-implementasi-aplikasi)
+  - [11. Latihan Terbimbing: Implementasi Aplikasi](#11-latihan-terbimbing-implementasi-aplikasi)
   - [12. Aktivitas Kelompok](#12-aktivitas-kelompok)
   - [13. Latihan Individu](#13-latihan-individu)
   - [14. Pemanfaatan AI sebagai Coding Assistant](#14-pemanfaatan-ai-sebagai-coding-assistant)
@@ -354,9 +354,9 @@ Diagram tersebut menunjukkan bahwa `Perpustakaan` memiliki kumpulan `Buku` dan `
 
 ---
 
-## 11. Case Based Learning: Implementasi Aplikasi
+## 11. Latihan Terbimbing: Implementasi Aplikasi
 
-Gunakan contoh aplikasi pada [`../code/pertemuan-09/perpustakaan.py`](../code/pertemuan-09/perpustakaan.py) untuk mengamati implementasi lengkap yang dapat dijalankan.
+Latihan terbimbing menggunakan contoh aplikasi pada [`../code/pertemuan-09/perpustakaan.py`](../code/pertemuan-09/perpustakaan.py) untuk mengamati implementasi lengkap yang dapat dijalankan.
 
 ```bash
 python3 ../code/pertemuan-09/perpustakaan.py

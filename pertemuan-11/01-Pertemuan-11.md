@@ -30,7 +30,7 @@
   - [10. Composition](#10-composition)
   - [11. Inheritance pada UML](#11-inheritance-pada-uml)
   - [12. Studi Kasus: Sistem Informasi Akademik](#12-studi-kasus-sistem-informasi-akademik)
-  - [13. Case Based Learning: Membuat Class Diagram](#13-case-based-learning-membuat-class-diagram)
+    - [13. Latihan Terbimbing: Membuat Class Diagram](#13-latihan-terbimbing-membuat-class-diagram)
   - [14. Aktivitas Kelompok](#14-aktivitas-kelompok)
   - [15. Latihan Individu](#15-latihan-individu)
     - [Latihan Membuat UML Class Diagram](#latihan-membuat-uml-class-diagram)
@@ -361,9 +361,9 @@ Diagram perlu direvisi jika tidak dapat menjelaskan skenario pendaftaran kelas a
 
 ---
 
-## 13. Case Based Learning: Membuat Class Diagram
+## 13. Latihan Terbimbing: Membuat Class Diagram
 
-Gunakan contoh pada [`../code/pertemuan-11/diagram_akademik.py`](../code/pertemuan-11/diagram_akademik.py) untuk melihat representasi rancangan class dan relasi dalam Python.
+Latihan terbimbing menggunakan contoh pada [`../code/pertemuan-11/diagram_akademik.py`](../code/pertemuan-11/diagram_akademik.py) untuk melihat representasi rancangan class dan relasi dalam Python.
 
 ```bash
 python3 ../code/pertemuan-11/diagram_akademik.py

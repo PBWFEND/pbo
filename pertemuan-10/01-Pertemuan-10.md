@@ -29,7 +29,7 @@
   - [9. Menetapkan Tanggung Jawab Class](#9-menetapkan-tanggung-jawab-class)
   - [10. Menentukan Relasi Antar-Class](#10-menentukan-relasi-antar-class)
   - [11. Studi Kasus: Sistem Informasi Akademik](#11-studi-kasus-sistem-informasi-akademik)
-  - [12. Case Based Learning: Analisis Kebutuhan](#12-case-based-learning-analisis-kebutuhan)
+    - [12. Latihan Terbimbing: Analisis Kebutuhan](#12-latihan-terbimbing-analisis-kebutuhan)
   - [13. Aktivitas Kelompok](#13-aktivitas-kelompok)
   - [14. Latihan Individu](#14-latihan-individu)
   - [15. Pemanfaatan AI sebagai Coding Assistant](#15-pemanfaatan-ai-sebagai-coding-assistant)
@@ -326,9 +326,9 @@ Tabel tersebut adalah rancangan awal, bukan hasil final. Periksa kembali apakah 
 
 ---
 
-## 12. Case Based Learning: Analisis Kebutuhan
+## 12. Latihan Terbimbing: Analisis Kebutuhan
 
-Gunakan contoh analisis pada [`../code/pertemuan-10/analisis_akademik.py`](../code/pertemuan-10/analisis_akademik.py) untuk melihat bagaimana kandidat class diterjemahkan menjadi object Python sederhana.
+Latihan terbimbing menggunakan contoh analisis pada [`../code/pertemuan-10/analisis_akademik.py`](../code/pertemuan-10/analisis_akademik.py) untuk melihat bagaimana kandidat class diterjemahkan menjadi object Python sederhana.
 
 ```bash
 python3 ../code/pertemuan-10/analisis_akademik.py
