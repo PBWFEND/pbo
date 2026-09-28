@@ -348,24 +348,24 @@ Latihan mandiri harus memenuhi ketentuan:
 - Membuat contoh skenario interaksi `Anggota` dan `Buku` untuk diuji.
 - Membantu memeriksa rancangan diagram class sebelum Anda menerapkannya.
 
-**❌ Jangan gunakan AI untuk:**
+**❌ Hindari penggunaan AI untuk:**
 
 - Menuliskan seluruh latihan `KartuMahasiswa` tanpa memahami setiap method.
 - Menyalin diagram class tanpa memahami attribute, method, dan tanggung jawab object.
 - Mengabaikan error karena kode dari AI terlihat benar.
 - Memasukkan data pribadi atau kredensial ke dalam prompt.
 
-**Etika di kelas:**
+**Etika di kelas ini:**
 
 1. Anda wajib dapat menjelaskan setiap class, object, constructor, attribute, method, dan interaksi antar-object yang diserahkan.
-2. Jika memakai AI, cantumkan pada komentar kode atau refleksi. Contoh yang sesuai dengan materi Pertemuan 2:
+2. Cantumkan penggunaan bantuan AI pada komentar kode atau refleksi. Contoh yang sesuai dengan materi Pertemuan 2:
 
    ```python
    # Bantuan: ChatGPT — penjelasan interaksi object Anggota dan Buku.
    anggota.pinjam_buku(buku)
    ```
 
-3. AI digunakan sebagai asisten, bukan pengganti. Anda tetap bertanggung jawab memahami, menjalankan, dan menguji kode.
+3. AI digunakan sebagai alat bantu pembelajaran. Anda tetap bertanggung jawab memahami, menjelaskan, dan menguji kode yang digunakan dalam tugas. Penggunaan AI tidak menggantikan proses memahami konsep class, object, dan interaksi antar-object.
 
 ---
 

@@ -790,7 +790,7 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 - Membuat contoh pemakaian method untuk diuji secara mandiri.
 - Menjelaskan kode contoh `mahasiswa.py` atau `perpustakaan.py` baris demi baris.
 
-**❌ Jangan gunakan AI untuk:**
+**❌ Hindari penggunaan AI untuk:**
 
 - Menuliskan seluruh tugas atau latihan yang seharusnya Anda kerjakan.
 - Menyalin solusi class `Produk` tanpa memahami constructor dan method-nya.
@@ -800,7 +800,7 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
 **Etika di kelas ini:**
 
 1. Anda wajib dapat menjelaskan setiap class, object, attribute, method, dan constructor yang diserahkan.
-2. Jika memakai AI, cantumkan pada komentar kode atau refleksi. Contoh yang sesuai dengan materi class attribute dan instance attribute:
+2. Cantumkan penggunaan bantuan AI pada komentar kode atau refleksi. Contoh yang sesuai dengan materi class attribute dan instance attribute:
 
    ```python
    # Bantuan: ChatGPT — penjelasan class attribute dan instance attribute.
@@ -812,7 +812,7 @@ k.nama = "Kitty"        # instance attribute — hanya milik k
            Mahasiswa.jumlah_mahasiswa += 1
    ```
 
-3. AI digunakan sebagai asisten, bukan pengganti. Anda tetap bertanggung jawab memahami, menjalankan, dan menguji kode yang diserahkan.
+3. AI digunakan sebagai alat bantu pembelajaran. Anda tetap bertanggung jawab memahami, menjelaskan, dan menguji kode yang digunakan dalam tugas. Penggunaan AI tidak menggantikan proses memahami konsep class dan object.
 
 ---
 

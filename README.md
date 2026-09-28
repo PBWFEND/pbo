@@ -35,6 +35,18 @@
 | 22 | [Materi Pertemuan 7 — `pertemuan-07/01-Pertemuan-7.md`](./pertemuan-07/01-Pertemuan-7.md) | OOP vs procedural programming, analisis kebutuhan, perbandingan pendekatan, CBL, latihan, quiz, dan asesmen |
 | 23 | [Quiz Pertemuan 7 — `pertemuan-07/02-Quiz-Pertemuan-7.md`](./pertemuan-07/02-Quiz-Pertemuan-7.md) | Lima soal tentang perbedaan OOP dan procedural programming |
 | 24 | Kode praktikum Pertemuan 7 — [`code/pertemuan-07/`](./code/pertemuan-07/) | Contoh prosedural dan OOP, scaffold latihan, |
+| 25 | [Materi Pertemuan 8 — `pertemuan-08/01-Pertemuan-8.md`](./pertemuan-08/01-Pertemuan-8.md) | Ujian Tengah Semester: kisi-kisi konsep OOP, analisis desain, coding/problem solving, dan persiapan UTS |
+| 26 | [Soal UTS — `pertemuan-08/02-Quiz-Pertemuan-8.md`](./pertemuan-08/02-Quiz-Pertemuan-8.md) | Soal UTS Bagian A teori (40 poin) dan Bagian B coding (60 poin) |
+| 27 | Kode praktikum Pertemuan 8 — [`code/pertemuan-08/`](./code/pertemuan-08/) | Scaffold latihan persiapan UTS dan kunci jawaban kode |
+| 28 | [Materi Pertemuan 9 — `pertemuan-09/01-Pertemuan-9.md`](./pertemuan-09/01-Pertemuan-9.md) | Implementasi OOP dengan Python, aplikasi sederhana berbasis object, CBL, latihan, dan asesmen |
+| 29 | [Quiz Pertemuan 9 — `pertemuan-09/02-Quiz-Pertemuan-9.md`](./pertemuan-09/02-Quiz-Pertemuan-9.md) | Lima soal tentang implementasi class, tanggung jawab object, interaksi antar-object, dan validasi |
+| 30 | Kode praktikum Pertemuan 9 — [`code/pertemuan-09/`](./code/pertemuan-09/) | Contoh aplikasi perpustakaan dan scaffold latihan implementasi OOP |
+| 31 | [Materi Pertemuan 10 — `pertemuan-10/01-Pertemuan-10.md`](./pertemuan-10/01-Pertemuan-10.md) | Analisis object, class, attribute, method, tanggung jawab, relasi, dan persiapan UML |
+| 32 | [Quiz Pertemuan 10 — `pertemuan-10/02-Quiz-Pertemuan-10.md`](./pertemuan-10/02-Quiz-Pertemuan-10.md) | Lima soal tentang analisis kandidat class, tanggung jawab, attribute, method, dan relasi |
+| 33 | Kode praktikum Pertemuan 10 — [`code/pertemuan-10/`](./code/pertemuan-10/) | Contoh analisis akademik dan scaffold latihan analisis object serta class |
+| 34 | [Materi Pertemuan 11 — `pertemuan-11/01-Pertemuan-11.md`](./pertemuan-11/01-Pertemuan-11.md) | UML class diagram, visibility, multiplicity, association, aggregation, composition, dan inheritance |
+| 35 | [Quiz Pertemuan 11 — `pertemuan-11/02-Quiz-Pertemuan-11.md`](./pertemuan-11/02-Quiz-Pertemuan-11.md) | Lima soal tentang struktur UML dan relasi antar-class |
+| 36 | Kode praktikum Pertemuan 11 — [`code/pertemuan-11/`](./code/pertemuan-11/) | Contoh diagram akademik dan scaffold latihan UML serta relasi antar-class |
 
 ## Referensi Terkait
 

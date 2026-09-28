@@ -320,26 +320,26 @@ Latihan mandiri harus memenuhi ketentuan:
 
 ## 13. Pemanfaatan AI sebagai Coding Assistant
 
-**AI assistant dapat digunakan dengan pendekatan yang tepat:**
+**AI assistant (GitHub Copilot, ChatGPT, Claude, Gemini) boleh dipakai — dengan cara yang benar:**
 
-**Gunakan AI untuk:**
+**✅ Gunakan AI untuk:**
 
 - Menjelaskan perbedaan polymorphism, overriding, dan duck typing.
 - Membantu membaca error ketika method tidak ditemukan pada object.
 - Membandingkan pendekatan pemeriksaan tipe dengan pendekatan polimorfik.
 - Membuat skenario pengujian untuk fungsi yang memproses object beragam.
 
-**Jangan gunakan AI untuk:**
+**❌ Hindari penggunaan AI untuk:**
 
 - Menuliskan seluruh hierarki class tanpa memahami perilaku setiap class.
 - Menyalin implementasi method tanpa menguji hasil pemanggilan.
 - Menggunakan pemeriksaan tipe berlebihan yang menghilangkan manfaat polymorphism.
 - Memasukkan data pribadi atau kredensial ke dalam prompt.
 
-**Etika di kelas:**
+**Etika di kelas ini:**
 
 1. Anda wajib dapat menjelaskan fungsi polymorphism, overriding, dan duck typing pada kode yang diserahkan.
-2. Jika memakai AI, cantumkan penggunaannya pada komentar kode atau refleksi.
+2. Cantumkan penggunaan bantuan AI pada komentar kode atau refleksi.
    Contoh yang sesuai dengan materi polymorphism:
 
    ```python
@@ -349,7 +349,7 @@ Latihan mandiri harus memenuhi ketentuan:
            print(data.ringkasan())
    ```
 
-3. AI digunakan sebagai asisten. Anda tetap bertanggung jawab memahami, menjalankan, dan menguji kode.
+3. AI digunakan sebagai alat bantu pembelajaran. Anda tetap bertanggung jawab memahami, menjelaskan, dan menguji kode yang digunakan dalam tugas. Penggunaan AI tidak menggantikan proses memahami polymorphism, overriding, dan duck typing.
 
 ---
 

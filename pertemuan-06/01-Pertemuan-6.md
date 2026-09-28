@@ -320,26 +320,26 @@ Latihan mandiri harus memenuhi ketentuan:
 
 ## 13. Pemanfaatan AI sebagai Coding Assistant
 
-**AI assistant dapat digunakan dengan pendekatan yang tepat:**
+**AI assistant (GitHub Copilot, ChatGPT, Claude, Gemini) boleh dipakai — dengan cara yang benar:**
 
-**Gunakan AI untuk:**
+**✅ Gunakan AI untuk:**
 
 - Menjelaskan perbedaan abstract class, abstract method, dan interface.
 - Membantu membaca error `TypeError` pada abstract class.
 - Membandingkan pendekatan duck typing dengan kontrak abstraction.
 - Membuat skenario pengujian untuk subclass yang belum lengkap.
 
-**Jangan gunakan AI untuk:**
+**❌ Hindari penggunaan AI untuk:**
 
 - Menuliskan seluruh hierarki class tanpa memahami kontrak setiap class.
 - Menyalin implementasi abstract method tanpa menguji instansiasi subclass.
 - Menghapus abstract method hanya untuk menghindari error.
 - Memasukkan data pribadi atau kredensial ke dalam prompt.
 
-**Etika di kelas:**
+**Etika di kelas ini:**
 
 1. Anda wajib dapat menjelaskan fungsi abstract class, abstract method, dan kontrak perilaku pada kode yang diserahkan.
-2. Jika memakai AI, cantumkan penggunaannya pada komentar kode atau refleksi.
+2. Cantumkan penggunaan bantuan AI pada komentar kode atau refleksi.
    Contoh yang sesuai dengan materi abstraction:
 
    ```python
@@ -349,7 +349,7 @@ Latihan mandiri harus memenuhi ketentuan:
        pass
    ```
 
-3. AI digunakan sebagai asisten. Anda tetap bertanggung jawab memahami, menjalankan, dan menguji kode.
+3. AI digunakan sebagai alat bantu pembelajaran. Anda tetap bertanggung jawab memahami, menjelaskan, dan menguji kode yang digunakan dalam tugas. Penggunaan AI tidak menggantikan proses memahami abstraction, abstract class, dan abstract method.
 
 ---
 
