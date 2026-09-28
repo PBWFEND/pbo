@@ -414,27 +414,10 @@ Lengkapi kerangka Mermaid berikut:
 
 ```mermaid
 classDiagram
-    class Pelanggan {
-        +str kode
-        +str nama
-    }
-    class Pesanan {
-        +str nomor
-        +tambah_detail(Produk, int) None
-        +total() int
-    }
-    class DetailPesanan {
-        +int jumlah
-        +subtotal() int
-    }
-    class Produk {
-        +str kode
-        +str nama
-        +int harga
-    }
-    Pelanggan "1" --> "0..*" Pesanan : memiliki
-    Pesanan "1" *-- "1..*" DetailPesanan : terdiri dari
-    DetailPesanan "0..*" --> "1" Produk : mengacu pada
+    class Pelanggan
+    class Pesanan
+    class DetailPesanan
+    class Produk
 ```
 
 Periksa diagram dengan pertanyaan berikut:
