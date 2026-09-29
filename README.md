@@ -56,6 +56,9 @@
 | 43 | [Materi Pertemuan 14 — `pertemuan-14/01-Pertemuan-14.md`](./pertemuan-14/01-Pertemuan-14.md) | Exception handling, validation, debugging, dan refactoring pada mini project OOP |
 | 44 | [Quiz Pertemuan 14 — `pertemuan-14/02-Quiz-Pertemuan-14.md`](./pertemuan-14/02-Quiz-Pertemuan-14.md) | Lima soal tentang exception, validation, debugging, dan refactoring |
 | 45 | Kode praktikum Pertemuan 14 — [`code/pertemuan-14/`](./code/pertemuan-14/) | Contoh exception handling dan scaffold latihan perbaikan mini project |
+| 46 | [Materi Pertemuan 15 — `pertemuan-15/01-Pertemuan-15.md`](./pertemuan-15/01-Pertemuan-15.md) | Testing dengan `unittest`, test case, dokumentasi, evaluasi, dan persiapan presentasi |
+| 47 | [Quiz Pertemuan 15 — `pertemuan-15/02-Quiz-Pertemuan-15.md`](./pertemuan-15/02-Quiz-Pertemuan-15.md) | Lima soal tentang test case, assertion, dokumentasi, dan presentasi |
+| 48 | Kode praktikum Pertemuan 15 — [`code/pertemuan-15/`](./code/pertemuan-15/) | Contoh unit testing dengan `unittest` dan scaffold latihan testing |
 
 ## Referensi Terkait
 
