@@ -50,6 +50,12 @@
 | 37 | [Materi Pertemuan 12 — `pertemuan-12/01-Pertemuan-12.md`](./pertemuan-12/01-Pertemuan-12.md) | Implementasi mini project berbasis OOP dari UML, struktur module, class layanan, dan skenario penggunaan |
 | 38 | [Quiz Pertemuan 12 — `pertemuan-12/02-Quiz-Pertemuan-12.md`](./pertemuan-12/02-Quiz-Pertemuan-12.md) | Lima soal tentang penerjemahan UML, struktur module, relasi object, dan class layanan |
 | 39 | Kode praktikum Pertemuan 12 — [`code/pertemuan-12/`](./code/pertemuan-12/) | Contoh Sistem Peminjaman Ruang dan scaffold latihan implementasi mini project |
+| 40 | [Materi Pertemuan 13 — `pertemuan-13/01-Pertemuan-13.md`](./pertemuan-13/01-Pertemuan-13.md) | CRUD, collection object, identifier, validasi operasi, dan pengelolaan data mini project |
+| 41 | [Quiz Pertemuan 13 — `pertemuan-13/02-Quiz-Pertemuan-13.md`](./pertemuan-13/02-Quiz-Pertemuan-13.md) | Lima soal tentang Create, Read, Update, Delete, identifier, dan validasi |
+| 42 | Kode praktikum Pertemuan 13 — [`code/pertemuan-13/`](./code/pertemuan-13/) | Contoh CRUD peminjaman ruang dan scaffold latihan pengelolaan data |
+| 43 | [Materi Pertemuan 14 — `pertemuan-14/01-Pertemuan-14.md`](./pertemuan-14/01-Pertemuan-14.md) | Exception handling, validation, debugging, dan refactoring pada mini project OOP |
+| 44 | [Quiz Pertemuan 14 — `pertemuan-14/02-Quiz-Pertemuan-14.md`](./pertemuan-14/02-Quiz-Pertemuan-14.md) | Lima soal tentang exception, validation, debugging, dan refactoring |
+| 45 | Kode praktikum Pertemuan 14 — [`code/pertemuan-14/`](./code/pertemuan-14/) | Contoh exception handling dan scaffold latihan perbaikan mini project |
 
 ## Referensi Terkait
 
