@@ -59,6 +59,11 @@
 | 46 | [Materi Pertemuan 15 — `pertemuan-15/01-Pertemuan-15.md`](./pertemuan-15/01-Pertemuan-15.md) | Testing dengan `unittest`, test case, dokumentasi, evaluasi, dan persiapan presentasi |
 | 47 | [Quiz Pertemuan 15 — `pertemuan-15/02-Quiz-Pertemuan-15.md`](./pertemuan-15/02-Quiz-Pertemuan-15.md) | Lima soal tentang test case, assertion, dokumentasi, dan presentasi |
 | 48 | Kode praktikum Pertemuan 15 — [`code/pertemuan-15/`](./code/pertemuan-15/) | Contoh unit testing dengan `unittest` dan scaffold latihan testing |
+| 49 | [Materi Pertemuan 16 — `pertemuan-16/01-Pertemuan-16.md`](./pertemuan-16/01-Pertemuan-16.md) | UAS / Project Defense, demo aplikasi, presentasi, tanya jawab, dan pertanggungjawaban desain |
+| 50 | [Quiz Pertemuan 16 — `pertemuan-16/02-Quiz-Pertemuan-16.md`](./pertemuan-16/02-Quiz-Pertemuan-16.md) | Lima soal tentang demo, desain OOP, testing, dan evaluasi project |
+| 51 | Kode praktikum Pertemuan 16 — [`code/pertemuan-16/`](./code/pertemuan-16/) | Contoh checklist Project Defense dan scaffold latihan evaluasi project |
+| 52 | [Soal UAS Pertemuan 16 — `pertemuan-16/02-Soal-UAS-Pertemuan-16.md`](./pertemuan-16/02-Soal-UAS-Pertemuan-16.md) | Instruksi project, fitur wajib, deliverables, alur defense, pertanyaan, rubrik, dan checklist pengumpulan |
+| 53 | [Template Penyelesaian UAS Pertemuan 16 — `pertemuan-16/03-Template-Penyelesaian-UAS-Pertemuan-16.md`](./pertemuan-16/03-Template-Penyelesaian-UAS-Pertemuan-16.md) | Template jawaban project, desain OOP, test case, demo, kontribusi, dan refleksi |
 
 ## Referensi Terkait
 
